@@ -2,7 +2,7 @@
 Using a raspberry pi &camera as surveillance system that only triggers on predefined objects
 
 # What does it do?
-This script uses the picamera module to continuously record videos. Frames are repeatedly analyzed for motion & object detection, in my case humans (I use HAAR and HOG detectors). The videos are only stored when a pedestrian was detected. This system is ideal for situations where there typically is a lot of movement (cars, birds, trees rustling in the wind..) which would otherwise create many false positives.
+This script uses the picamera module to continuously record videos. Frames are repeatedly analyzed for motion & object detection, in my case humans (I use HAAR and HOG detectors). The videos are only stored when a pedestrian was detected. This system is ideal for situations where typically is a lot of non-relevant movement (cars, birds, trees in the wind..) which otherwise could create many false positives.
 
 # Requirements
 * python 3.6
